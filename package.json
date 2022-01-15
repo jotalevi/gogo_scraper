@@ -1,28 +1,23 @@
 {
   "version": "1.0.0",
   "main": "src/index.js",
-  "name": "fsp-services-api",
+  "name": "gogo_scraper_api",
   "description": "FashionParks services api",
   "scripts": {
     "dev": "nodemon src/index",
     "start": "node src/index"
   },
-  "author": "Eros Talevi",
+  "author": "jotalevi",
   "dependencies": {
     "axios": "^0.24.0",
     "body-parser": "^1.19.1",
     "cheerio": "^1.0.0-rc.10",
     "cors": "2.8.5",
     "express": "4.17.1",
-    "express-sitemap-html": "^1.2.3",
     "mongoose": "^6.1.3",
     "pretty": "^2.0.0",
     "query-string": "^7.0.1",
     "selenium-webdriver": "^4.1.1",
-    "swagger-ui-express": "4.2.0",
-    "transbank-sdk": "^3.0.0",
-    "uuid": "^8.3.2",
-    "ws": "^8.4.0",
     "yargs": "17.2.1"
   },
   "devDependencies": {
