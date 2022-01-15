@@ -6,5 +6,6 @@ module.exports = {
     search: "/search?keyword=",
     anime: "/category/",
     episode: "/watch/"
-  }
+  },
+  proxy_path: "/api"
 }
